@@ -16,6 +16,16 @@ namespace COMP123_S2017_lesson9B
 	{
 		static void Main(string[] args)
 		{
+
+			// PRIVATE INSTANCE VARIABLES
+
+			//PUBLIC PROPERTIES
+
+			//CONSTRUCTOR
+
+			//PRIVATE METHODS
+
+			//PUBLIC METHODS
 		}
 	}
 }
