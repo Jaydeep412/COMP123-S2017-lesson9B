@@ -24,6 +24,15 @@ namespace COMP123_S2017_lesson9B
 
 		//PUBLIC PROPERTIES
 
+		public List<Power> Powers
+		{
+			get
+			{
+				return this._powers; // this returns powers list
+			}
+
+		}
+
 		//CONSTRUCTOR
 		/// <summary>
 		/// This is the main constructor for the Super Human Class
@@ -47,5 +56,12 @@ namespace COMP123_S2017_lesson9B
 		}
 
 		//PUBLIC METHODS
+		public void AddPower(string name, int rank)
+		{
+			this.Powers.Add(new Power(name,rank));
+		}
+
+
+
 	}
 }
