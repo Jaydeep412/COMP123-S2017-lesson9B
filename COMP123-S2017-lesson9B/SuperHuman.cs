@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 * Name: Jaydeep Lakhwani
 * Date: July 11,2017
 * Description: This is the SuperHuman Class that extends the Human Abstract class
-* Version: 0.4 - Added overriden method ToString
+* Version: 0.5 - Added Stub Method DisplaySkills to conform to Human Abstract Superclass
 */
 
 namespace COMP123_S2017_lesson9B
@@ -69,6 +69,8 @@ namespace COMP123_S2017_lesson9B
 			} 
 		}
 
+		//PUBLIC OVERRIDEN METHODS
+
 		/// <summary>
 		/// Overridden the built-in ToString method
 		/// </summary>
@@ -91,6 +93,15 @@ namespace COMP123_S2017_lesson9B
 
 			return outputString;
 			
+		}
+
+		/// <summary>
+		/// This is the DisplaySkills Method.
+		/// NEEDS TO BE IMPLEMENTED...
+		/// </summary>
+		public override void DisplaySkills()
+		{
+			Console.WriteLine("NOt Implemented!");
 		}
 
 	}
