@@ -17,7 +17,6 @@ namespace COMP123_S2017_lesson9B
 	{
 		static void Main(string[] args)
 		{
-
 			SuperHuman superHuman = new SuperHuman("Super Dude");
 
 			superHuman.AddPower("Spider Climbing",50);
