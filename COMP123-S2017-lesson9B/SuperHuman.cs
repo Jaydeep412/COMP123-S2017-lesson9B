@@ -101,7 +101,7 @@ namespace COMP123_S2017_lesson9B
 		/// </summary>
 		public override void DisplaySkills()
 		{
-			Console.WriteLine("NOt Implemented!");
+			Console.WriteLine("Not Implemented!");
 		}
 
 	}
