@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 * Name: Jaydeep Lakhwani
 * Date: July 11,2017
 * Description: This is the Abstract Human Class
-* Version: 0.1 - Created the Abstract Human Class
+* Version: 0.2 - Added Public Abstract method DisplaySkills
 */
 namespace COMP123_S2017_lesson9B
 {
@@ -46,6 +46,12 @@ namespace COMP123_S2017_lesson9B
 		{
 			this.Name = name;
 		}
+
+		//METHODS
+
+			//PUBLIC ABSTRACT METHODS
+
+		public abstract void DisplaySkills();
 
 
 		//PRIVATE METHODS
