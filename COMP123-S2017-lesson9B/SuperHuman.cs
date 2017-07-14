@@ -87,8 +87,9 @@ namespace COMP123_S2017_lesson9B
 					outputString+= "Power:" + power.Name + "Rank:" + power.Rank + "\n";
 				}
 
+			outputString += "================================\n";
 
-				return outputString;
+			return outputString;
 			
 		}
 
